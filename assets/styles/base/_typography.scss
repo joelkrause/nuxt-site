@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'KonstantGrotesk';
+    src: url('../fonts/KonstantGroteskBook.woff2') format('woff2'),
+        url('../fonts/KonstantGroteskBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,html{
+    font-family: 'KonstantGrotesk';
+}
+
+p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0 0 2rem;
+}
