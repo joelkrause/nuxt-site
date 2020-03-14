@@ -3,10 +3,9 @@
     <section class="intro">
       <div class="intro_text">
         <p>Hey, I'm Joel and i'm a frontend developer from Melbourne, Australia.</p>
-        <p>I work at raak creative building beautiful headless sites with wordpess and nuxt.js</p>
+        <p>I work at <a href="https://raak.com.au" target="_blank">raak creative</a> building beautiful headless sites with nuxt.js</p>
       </div>
     </section>
-    <Social />
   </main>
 </template>
 
@@ -23,5 +22,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.intro{}
+main{
+    padding: 2rem;
+    @media (min-width:1280px){
+        max-width: 60vw;
+    }
+}
+.intro{
+  line-height: 1.5;
+  a{
+    color: currentColor;
+  }
+}
 </style>
